@@ -68,3 +68,92 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## project name:
+            e-commerce-app 
+
+## create - e-commerce-app: 
+            npx create-react-app e-commerce-app 
+            cd e-commerce-app 
+
+## start server:
+             npm start 
+
+
+## Technologies Used: 
+         
+        -React
+        -Redux Toolkit 
+        -JavaScript(ES6+)
+        -Tailwind CSS 
+        -HTML5
+        -CSS3
+
+## project folder structure:
+            
+            e-commerce-app
+                |
+                |-build
+                |-Header
+                |-node_modules
+                |-public
+                |-src
+                |    |-components
+                |    |   |-AllProducts
+                |    |   |    |-index.js
+                |    |   |-Cart
+                |    |   |    |-index.js
+                |    |   |-CartItem
+                |    |   |    |-index.js 
+                |    |   |-CartListView
+                |    |   |    |-index.js
+                |    |   |-CartSummary
+                |    |   |    |-index.js
+                |    |   |-EmaptyCartView
+                |    |   |    |-index.js 
+                |    |   |-FilterGroup
+                |    |   |    |-index.js
+                |    |   |-Header
+                |    |   |    |-index.js
+                |    |   |-LoginForm
+                |    |   |    |-index.js
+                |    |   |-NotFound
+                |    |   |    |-index.js 
+                |    |   |-PrimeDealsSection
+                |    |   |    |-index.js 
+                |    |   |-ProductCard 
+                |    |   |    |-index.js
+                |    |   |-ProductHeaders
+                |    |   |    |-index.js 
+                |    |   |-ProductItemDetails 
+                |    |   |    |-index.js 
+                |    |   |-Products
+                |    |   |    |-index.js 
+                |    |   |-SimilarProductItem
+                |    |   |    |-index.js
+                |    |-redux 
+                |    |   |-cartSlice.js
+                |    |   |-filterSlice.js
+                |    |   |-productSlice.js
+                |    |   |store.js
+                |    |-App.css
+                |    |-App.js
+                |    |-index.css
+                |    |-index.js
+                |-package-lock.json
+                |-package.json
+                |-postcss.config.js
+                |-tailwind.config.js
+                |-README.md
+
+
+## Features :
+        -View all products 
+        -Filter products 
+        -Product Details Page
+        -Add to cart functionality
+        -Remove items from cart 
+        -Cart summary
+        -similar products suggestion
+        -Login page 
+        -Responsive UI

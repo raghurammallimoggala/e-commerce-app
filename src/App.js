@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes,Route} from "react-router-dom";
+import {HashRouter, Routes,Route} from "react-router-dom";
 import Home from "./components/Home";
 import LoginForm from "./components/LoginForm";
 import NotFound from "./components/NotFound";
@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-   <BrowserRouter>
+   <HashRouter>
    <Routes>
     <Route path ="/login" element={<LoginForm/>} />
     <Route path ="/" element={<Home/>} />
@@ -18,7 +18,7 @@ function App() {
     <Route path ="/cart" element={<Cart/>} />
     <Route path ="*" element={<NotFound/>} />
    </Routes>
-   </BrowserRouter>
+   </HashRouter>
   );
 }
 
